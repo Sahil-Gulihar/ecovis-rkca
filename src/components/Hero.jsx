@@ -4,20 +4,18 @@ import floating2 from "../assets/images/floating-2.png";
 import iconClients from "../assets/images/icon-clients.png";
 import floating4 from "../assets/images/floating-4.png";
 import floating5 from "../assets/images/floating-5.png";
-import logoKfc from "../assets/images/logo-kfc.png";
-import logoPaul from "../assets/images/logo-paul.png";
-import logoOrpi from "../assets/images/logo-orpi.png";
-import logoPierre from "../assets/images/logo-pierre.png";
-import logoOptic from "../assets/images/logo-optic.png";
+import logoGbtech from "../assets/images/logo-gbtech.png";
+import logoMargom from "../assets/images/logo-margom.png";
+import logoAnalyticsArts from "../assets/images/logo-analytics-arts.png";
+import logoCoreCreators from "../assets/images/logo-core-creators.png";
 import checkBlue from "../assets/images/check-1.svg";
 import checkGreen from "../assets/images/check-2.svg";
 
 const LOGOS = [
-  { src: logoKfc, alt: "KFC" },
-  { src: logoPaul, alt: "Paul" },
-  { src: logoOrpi, alt: "Orpi" },
-  { src: logoPierre, alt: "Pierre Vacances" },
-  { src: logoOptic, alt: "Optic 2000" },
+  { src: logoGbtech, alt: "GBtech" },
+  { src: logoMargom, alt: "Margom" },
+  { src: logoAnalyticsArts, alt: "Analytics Arts" },
+  { src: logoCoreCreators, alt: "Core Creators" },
 ];
 
 const STATS = [
@@ -75,10 +73,20 @@ export default function Hero() {
               Governance-First Approach
             </div>
           </div>
+
+          <div className="mt-8 flex justify-center">
+            <a
+              href="mailto:info@ecovisrkca.com"
+              className="flex items-center gap-2 rounded-xl border border-[#090909] bg-[#090909] px-6 py-3 text-[16px] font-medium text-white transition hover:opacity-90"
+            >
+              Contact Us
+              <span aria-hidden>→</span>
+            </a>
+          </div>
         </div>
 
         {/* Trusted-by logo strip */}
-        <div className="mt-16 flex flex-col items-center gap-6">
+        <div className="mt-8 flex flex-col items-center gap-6">
           <p className="text-[15px] font-medium text-[#545454]">
             Trusted by <span className="font-bold">1,500+</span> clients across industries
           </p>
