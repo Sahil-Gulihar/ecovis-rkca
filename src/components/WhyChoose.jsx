@@ -34,14 +34,6 @@ export default function WhyChoose() {
         <p className="mx-auto mt-4 max-w-[600px] text-[16px] leading-[1.6] text-[#545454]">
           Discover the unique advantages that set us apart and make your influencer marketing journey smarter, safer, and more effective.
         </p>
-        <a
-          href="https://cal.com/meradian/intro"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-8 inline-block rounded-xl border border-[#090909] bg-[#090909] px-6 py-3 text-[16px] font-medium text-white transition hover:opacity-90"
-        >
-          Book a meet
-        </a>
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2">
           {CARDS.map((card) => (

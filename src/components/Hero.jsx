@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import iconFollowers from "../assets/images/icon-followers.png";
 import floating1 from "../assets/images/floating-1.png";
 import floating2 from "../assets/images/floating-2.png";
@@ -12,8 +11,6 @@ import logoPierre from "../assets/images/logo-pierre.png";
 import logoOptic from "../assets/images/logo-optic.png";
 import checkBlue from "../assets/images/check-1.svg";
 import checkGreen from "../assets/images/check-2.svg";
-
-const BOOK_A_MEET_HREF = "https://cal.com/meradian/intro";
 
 const LOGOS = [
   { src: logoKfc, alt: "KFC" },
@@ -69,24 +66,6 @@ export default function Hero() {
             from discovery and outreach to reporting and ROI.
           </p>
 
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            <a
-              href={BOOK_A_MEET_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 rounded-xl border border-[#090909] bg-[#090909] px-6 py-3 text-[16px] font-medium text-white transition hover:opacity-90"
-            >
-              Book a meet
-              <span aria-hidden>→</span>
-            </a>
-            <Link
-              to="/signup"
-              className="text-[16px] font-medium text-[#090909] underline-offset-4 hover:underline"
-            >
-              Sign up as an Influencer
-            </Link>
-          </div>
-
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
             <div className="flex items-center gap-2 text-[14px] font-medium text-[#a6a6a6]">
               <img src={checkGreen} alt="" className="size-5" />
@@ -122,23 +101,6 @@ export default function Hero() {
               <path d="M0 2.5C0 0.6 2.1-0.5 3.7 0.5L26 15C27.5 16 27.5 18.2 26 19.2L3.7 33.7C2.1 34.7 0 33.6 0 31.7V2.5Z" fill="white" />
             </svg>
           </button>
-        </div>
-
-        <div className="mt-14 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href={BOOK_A_MEET_HREF}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-xl border border-[#090909] bg-[#090909] px-6 py-3 text-[16px] font-medium text-white transition hover:opacity-90"
-          >
-            Book a meet
-          </a>
-          <Link
-            to="/signup"
-            className="flex items-center gap-2 rounded-full border border-[#090909] px-5 py-3 text-[16px] font-medium text-[#090909] transition hover:bg-black/5"
-          >
-            Sign up as an Influencer
-          </Link>
         </div>
 
         {/* "What can Meradian do" heading + stats */}

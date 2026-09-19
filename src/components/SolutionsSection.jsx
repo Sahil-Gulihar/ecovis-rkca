@@ -28,14 +28,6 @@ export default function SolutionsSection() {
           </h2>
           <div className="flex shrink-0 items-center gap-3">
             <a
-              href="https://cal.com/meradian/intro"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-xl border border-[#090909] bg-[#090909] px-5 py-3 text-[15px] font-medium text-white transition hover:opacity-90"
-            >
-              Book a meet
-            </a>
-            <a
               href="#features"
               className="flex items-center gap-2 rounded-full border border-[#090909] px-4 py-2.5 text-[15px] font-medium text-[#090909] transition hover:bg-black/5"
             >

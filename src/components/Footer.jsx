@@ -1,11 +1,8 @@
-import { Link } from "react-router-dom";
 import float1 from "../assets/images/footer-float-1.png";
 import float2 from "../assets/images/footer-float-2.png";
 import float3 from "../assets/images/footer-float-3.png";
 import float4 from "../assets/images/footer-float-4.png";
 import Logo from "./Logo";
-
-const BOOK_A_MEET_HREF = "https://cal.com/meradian/intro";
 
 const COLUMNS = [
   { title: "Solution", links: ["Campaigns", "Influencer Discovery", "Analytics & Reporting"] },
@@ -32,19 +29,6 @@ export default function Footer() {
             Reach real audiences, build lasting engagement, and drive measurable ROI with Meradian's
             influencer marketing platform for brands, agencies, and creators.
           </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            <a
-              href={BOOK_A_MEET_HREF}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-xl border border-[#090909] bg-[#090909] px-6 py-3 text-[16px] font-medium text-white transition hover:opacity-90"
-            >
-              Book a meet
-            </a>
-            <Link to="/signup" className="text-[16px] font-medium text-[#090909] hover:underline">
-              Sign up as an Influencer
-            </Link>
-          </div>
         </div>
       </div>
 

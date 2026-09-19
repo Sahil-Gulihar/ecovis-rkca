@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import icon1 from "../assets/images/tool-icon-1.png";
 import icon2 from "../assets/images/tool-icon-2.png";
 import icon3 from "../assets/images/tool-icon-3.png";
@@ -25,22 +24,6 @@ export default function ToolsIntro() {
         <p className="mx-auto mt-4 max-w-[600px] text-[16px] leading-[1.6] text-[#545454]">
           Meradian's campaigns are powered by a comprehensive suite of tools designed to address your influencer discovery, outreach, and reporting needs. Discover how each tool contributes to your success.
         </p>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-          <a
-            href="https://cal.com/meradian/intro"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-xl border border-[#090909] bg-[#090909] px-6 py-3 text-[16px] font-medium text-white transition hover:opacity-90"
-          >
-            Book a meet
-          </a>
-          <Link
-            to="/signup"
-            className="flex items-center gap-2 rounded-full border border-[#090909] px-5 py-3 text-[16px] font-medium text-[#090909] transition hover:bg-black/5"
-          >
-            Sign up as an Influencer
-          </Link>
-        </div>
       </div>
     </section>
   );
