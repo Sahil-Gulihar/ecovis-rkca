@@ -5,10 +5,10 @@ import float4 from "../assets/images/footer-float-4.png";
 import Logo from "./Logo";
 
 const COLUMNS = [
-  { title: "Solution", links: ["Campaigns", "Influencer Discovery", "Analytics & Reporting"] },
-  { title: "Use cases", links: ["Agency", "Business", "Startup", "Enterprise"] },
-  { title: "Resources", links: ["Pricing", "Blog", "Case studies", "Affiliate program"] },
-  { title: "Company", links: ["Support", "Terms of use", "Privacy policy"] },
+  { title: "Services", links: ["Governance, Risk & Compliance", "Finance & Capital", "Professional Services"] },
+  { title: "Advisory", links: ["Strategy & Performance", "Digital Transformation", "Startup Acceleration"] },
+  { title: "Contact", links: ["info@ecovisrkca.com", "0987653412", "ecovisrkca.com"] },
+  { title: "Office", links: ["1902, Kailas Business Park", "Vikhroli West", "Mumbai - 400079"] },
 ];
 
 export default function Footer() {
@@ -23,11 +23,11 @@ export default function Footer() {
         </div>
         <div className="relative mx-auto max-w-[615px] px-6 text-center">
           <h2 className="text-[28px] font-bold leading-[1.2] text-[#090909] sm:text-[36px]">
-            Launch Your Next Campaign with Meradian
+            We Help Build Investable &amp; Well Governed Businesses
           </h2>
           <p className="mx-auto mt-4 max-w-[560px] text-[16px] leading-[1.6] text-[#545454]">
-            Reach real audiences, build lasting engagement, and drive measurable ROI with Meradian's
-            influencer marketing platform for brands, agencies, and creators.
+            Ecovis RKCA is a growth partner, not just an advisor, bringing together Technology, Strategy,
+            Governance and Capital to help businesses scale with confidence.
           </p>
         </div>
       </div>
@@ -36,10 +36,10 @@ export default function Footer() {
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-[256px]">
             <Logo light />
-            <p className="mt-6 text-[14px] font-medium text-[#a6a6a6]">Copyright ©2025 Meradian</p>
+            <p className="mt-6 text-[14px] font-medium text-[#a6a6a6]">Copyright ©2025 Ecovis RKCA</p>
             <p className="mt-3 text-[12px] leading-[1.7] text-[#a6a6a6]">
-              Meradian is an independent influencer marketing platform and is not affiliated with or
-              endorsed by any social media platform.
+              Responsibility towards profession, knowledge in people, commitment for clients and
+              accountability to society.
             </p>
             <p className="mt-6 text-[15px] font-medium text-white">🇺🇸 English</p>
           </div>

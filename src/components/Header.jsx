@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
 
-const NAV_LINKS = ["For Brands", "For Influencers", "Campaigns", "Resources"];
+const NAV_LINKS = ["Services", "Industries", "About Us", "Contact"];
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/90 backdrop-blur">
@@ -16,8 +16,8 @@ export default function Header() {
               {label}
             </a>
           ))}
-          <a href="#pricing" className="text-[15px] font-medium text-[#090909] hover:text-black">
-            Pricing
+          <a href="#insights" className="text-[15px] font-medium text-[#090909] hover:text-black">
+            Insights
           </a>
         </nav>
 

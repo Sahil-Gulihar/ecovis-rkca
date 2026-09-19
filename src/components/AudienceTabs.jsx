@@ -4,30 +4,30 @@ import tabAgency from "../assets/images/tab-agency.png";
 const TABS = [
   {
     key: "agency",
-    label: "Agency",
-    title: "For Agencies",
-    body: "Run influencer campaigns for your clients and let Meradian handle the sourcing. Manage unlimited client accounts and deliver measurable results effortlessly.",
+    label: "Legal",
+    title: "Legal & Compliance",
+    body: "Legal advice and policy support to keep your business compliant and well governed.",
     image: tabAgency,
   },
   {
     key: "business",
-    label: "Business",
-    title: "For Businesses",
-    body: "Turn influencer marketing into a real sales channel. Reach the right customers, boost engagement, and grow your brand without hiring a full-time creator team.",
+    label: "Finance",
+    title: "Finance & Accounting",
+    body: "Financial advisory, accounting and reporting support that give you clarity and control.",
     image: tabAgency,
   },
   {
     key: "startup",
     label: "Startup",
     title: "For Startups",
-    body: "Launch your first campaigns fast. Get matched with creators who fit your budget and build brand awareness without a big marketing team.",
+    body: "Tailored growth strategies and acceleration support for emerging ventures.",
     image: tabAgency,
   },
   {
     key: "enterprise",
-    label: "Enterprise",
-    title: "For Enterprise",
-    body: "Run large-scale, multi-market influencer programs with full compliance and reporting. Turn campaigns into a predictable growth channel.",
+    label: "Digital",
+    title: "Digital Transformation",
+    body: "Technology expertise and data analytics services to transform how your business operates.",
     image: tabAgency,
   },
 ];
@@ -40,7 +40,7 @@ export default function AudienceTabs() {
     <section className="bg-white py-24">
       <div className="mx-auto max-w-[880px] px-6">
         <h2 className="text-center text-[28px] font-bold text-[#090909] sm:text-[36px]">
-          Designed for Your Marketing Needs
+          Designed for Your Business Needs
         </h2>
 
         <div className="mt-12 rounded-3xl bg-[#f7f7f7] p-8 shadow-[0px_1px_1px_0px_rgba(14,14,14,0.04),0px_4px_4px_0px_rgba(211,211,211,0.06)] sm:p-16">

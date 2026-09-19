@@ -19,10 +19,10 @@ export default function ToolsIntro() {
 
       <div className="relative mx-auto max-w-[800px] px-6 text-center">
         <h2 className="text-[28px] font-bold leading-[1.2] text-[#090909] sm:text-[36px]">
-          Explore the Tools Behind Our Campaigns
+          Explore Our Services
         </h2>
         <p className="mx-auto mt-4 max-w-[600px] text-[16px] leading-[1.6] text-[#545454]">
-          Meradian's campaigns are powered by a comprehensive suite of tools designed to address your influencer discovery, outreach, and reporting needs. Discover how each tool contributes to your success.
+          Ecovis RKCA offers governance, risk and compliance, finance and capital, professional services, strategy and performance, digital transformation, and startup and business acceleration.
         </p>
       </div>
     </section>

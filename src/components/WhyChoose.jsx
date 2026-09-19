@@ -6,23 +6,23 @@ import iconManagement from "../assets/images/icon-management.png";
 const CARDS = [
   {
     icon: iconRealGrowth,
-    title: "Real, Vetted Influencers",
-    body: "Unlike platforms that rely on inflated numbers, Meradian focuses on genuine reach, connecting you with creators whose audiences actually engage.",
+    title: "50+ Years of Experience",
+    body: "More than five decades of presence in India, serving over 1,500 clients across industries.",
   },
   {
     icon: iconGuidelines,
-    title: "Transparent and Compliant Campaigns",
-    body: "Meradian is designed to operate within every platform's guidelines and disclosure rules, keeping your brand safe while delivering results.",
+    title: "Governance You Can Trust",
+    body: "We help you build businesses that are well governed, compliant and ready for investors.",
   },
   {
     icon: iconTargeting,
-    title: "Advanced Targeting for Maximum Impact",
-    body: "With Meradian, you can target your ideal audience with precision, matching creators by niche, location, and audience demographics.",
+    title: "A 90+ Country Global Network",
+    body: "Part of a global network across more than 90 countries, bringing international expertise to your business.",
   },
   {
     icon: iconManagement,
-    title: "All-in-One Campaign Management",
-    body: "Save time and streamline your workflow by managing creator outreach, content approvals, and performance analytics all in one place.",
+    title: "Growth Partners, Not Just Advisors",
+    body: "Technology, Strategy, Governance and Capital under one roof, so you get end-to-end support.",
   },
 ];
 
@@ -30,9 +30,9 @@ export default function WhyChoose() {
   return (
     <section className="bg-[#f7f7f7] py-24">
       <div className="mx-auto max-w-[1148px] px-6 text-center">
-        <h2 className="text-[28px] font-bold text-[#090909] sm:text-[36px]">Why Choose Meradian?</h2>
+        <h2 className="text-[28px] font-bold text-[#090909] sm:text-[36px]">Why Choose Ecovis RKCA?</h2>
         <p className="mx-auto mt-4 max-w-[600px] text-[16px] leading-[1.6] text-[#545454]">
-          Discover the unique advantages that set us apart and make your influencer marketing journey smarter, safer, and more effective.
+          Discover the advantages that set us apart and make your business journey stronger, safer and more investable.
         </p>
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2">

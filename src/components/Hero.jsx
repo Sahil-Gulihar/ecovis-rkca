@@ -23,22 +23,21 @@ const LOGOS = [
 const STATS = [
   {
     icon: iconFollowers,
-    value: "+150%",
-    suffix: "avg",
-    title: "More Campaign Reach",
-    body: "Put your brand in front of highly engaged, niche audiences",
+    value: "1,500+",
+    title: "Clients Served",
+    body: "Businesses across industries trust us for advisory, compliance and growth",
   },
   {
     icon: floating2,
-    value: "10K+",
-    title: "Vetted Influencers",
-    body: "Access a curated network of creators across every platform",
+    value: "50+",
+    title: "Years of Experience",
+    body: "More than five decades of presence in India",
   },
   {
     icon: iconClients,
-    value: "3x",
-    title: "Higher ROI",
-    body: "Turn campaigns into measurable sales and brand growth",
+    value: "90+",
+    title: "Country Global Network",
+    body: "Global reach backed by deep local expertise",
   },
 ];
 
@@ -57,23 +56,23 @@ export default function Hero() {
 
         <div className="relative mx-auto max-w-[880px] text-center">
           <h1 className="text-[36px] font-bold leading-[1.1] tracking-[-0.02em] text-[#090909] sm:text-[48px] lg:text-[56px]">
-            Influencer marketing.
+            Investable businesses.
             <br />
-            Done right.
+            Well governed.
           </h1>
           <p className="mx-auto mt-5 max-w-[560px] text-[17px] leading-[1.55] text-[#545454]">
-            Meradian connects brands with the right creators and runs the campaigns —
-            from discovery and outreach to reporting and ROI.
+            Ecovis RKCA is a business advisory firm helping companies across governance,
+            finance, strategy and digital transformation.
           </p>
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
             <div className="flex items-center gap-2 text-[14px] font-medium text-[#a6a6a6]">
               <img src={checkGreen} alt="" className="size-5" />
-              Vetted Creators
+              Trusted Advisors
             </div>
             <div className="flex items-center gap-2 text-[14px] font-medium text-[#a6a6a6]">
               <img src={checkBlue} alt="" className="size-5" />
-              Data-Driven Campaigns
+              Governance-First Approach
             </div>
           </div>
         </div>
@@ -81,7 +80,7 @@ export default function Hero() {
         {/* Trusted-by logo strip */}
         <div className="mt-16 flex flex-col items-center gap-6">
           <p className="text-[15px] font-medium text-[#545454]">
-            Trusted by <span className="font-bold">500+</span> brands and agencies worldwide
+            Trusted by <span className="font-bold">1,500+</span> clients across industries
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 opacity-80 grayscale">
             {LOGOS.map((logo) => (
@@ -103,10 +102,10 @@ export default function Hero() {
           </button>
         </div>
 
-        {/* "What can Meradian do" heading + stats */}
+        {/* "What can Ecovis RKCA do" heading + stats */}
         <div className="mt-28 text-center">
           <h2 className="text-[28px] font-bold text-[#090909] sm:text-[36px]">
-            What can Meradian do for you?
+            What can Ecovis RKCA do for you?
           </h2>
 
           <div className="mt-14 grid gap-12 sm:grid-cols-3">

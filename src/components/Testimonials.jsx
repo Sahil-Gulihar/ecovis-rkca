@@ -8,53 +8,53 @@ import avatarMohammed from "../assets/images/avatar-mohammed.png";
 
 const TESTIMONIALS = [
   {
-    name: "Louis",
-    role: "Marketing Lead, DTC Brand",
+    name: "Our Tagline",
+    role: "Firm",
     avatar: avatarLouis,
     quote:
-      "We restarted a campaign with Meradian after a slow quarter, and within a week we were matched with creators who actually moved the needle.",
+      "We Help Build Investable & Well Governed Businesses.",
   },
   {
-    name: "Hugo",
-    role: "Content Creator",
+    name: "Governance",
+    role: "Risk & Compliance",
     avatar: avatarHugo,
     quote:
-      "Meradian keeps my calendar full of brand deals that actually fit my audience. Highly recommended for creators who want consistent, quality partnerships.",
+      "Legal advice and policy support to keep your business compliant and well governed.",
   },
   {
-    name: "Mathieu",
-    role: "E-commerce Entrepreneur",
+    name: "Finance",
+    role: "Capital",
     avatar: avatarMathieu,
     quote:
-      "Excellent service! Meradian quickly matched us with the right creators. Their team guided us through the whole campaign, and we saw results right away.",
+      "Financial advisory and capital services for growing businesses.",
   },
   {
-    name: "Francis",
-    role: "Aspiring Influencer",
+    name: "Strategy",
+    role: "Performance",
     avatar: avatarFrancis,
     quote:
-      "Great platform and guidance! I signed up on Meradian to land brand campaigns and learned a lot about working with brands through their support team.",
+      "Goal-oriented consulting that addresses business-performance gaps.",
   },
   {
-    name: "Cylia",
-    role: "Founder of a Boutique Brand",
+    name: "Digital",
+    role: "Transformation",
     avatar: avatarCylia,
     quote:
-      "After 2 months running campaigns on Meradian, we've worked with 12 creators and seen a real lift in sales. The reporting makes ROI obvious.",
+      "Technology expertise and data analytics services for modern businesses.",
   },
   {
-    name: "Amanda",
-    role: "Small Business Owner",
+    name: "Startups",
+    role: "Acceleration",
     avatar: avatarAmanda,
     quote:
-      "After trying six platforms, I'm thrilled with Meradian. It matches us with genuine creators, and the team even set up our first campaign at no extra cost!",
+      "Tailored growth strategies for emerging ventures.",
   },
   {
-    name: "Mohammed",
-    role: "Social Media Manager",
+    name: "Our Approach",
+    role: "Growth Partners",
     avatar: avatarMohammed,
     quote:
-      "Very satisfied! Meradian is easy to use, with responsive support. It helped us run compliant influencer campaigns with clear, trackable results.",
+      "We are growth partners, not just advisors — built on Technology, Strategy, Governance and Capital.",
   },
 ];
 

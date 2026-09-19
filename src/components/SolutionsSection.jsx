@@ -6,14 +6,14 @@ import iconChip from "../assets/images/icon-chip.svg";
 const CARDS = [
   {
     icon: iconWrench,
-    title: "1. Campaign Solutions",
-    body: "Boost visibility, engagement and conversion with influencer campaigns that connect your brand to the right audience, turning creators into a true growth engine.",
+    title: "1. Governance, Risk & Compliance",
+    body: "Legal advice and policy support that keep your business compliant, well governed and ready for scrutiny from investors and regulators.",
     image: solutionsGrowth,
   },
   {
     icon: iconChip,
-    title: "2. Management Solutions",
-    body: "Simplify influencer management with automated outreach, unified messaging, and effortless contract and payment control—all in one place.",
+    title: "2. Finance & Capital",
+    body: "Financial advisory and capital services, along with professional support and financial reporting, to help you build an investable business.",
     image: solutionsManagement,
   },
 ];
@@ -24,7 +24,7 @@ export default function SolutionsSection() {
       <div className="mx-auto max-w-[1148px] px-6">
         <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
           <h2 className="text-[28px] font-bold leading-[1.2] text-[#090909] sm:text-[36px]">
-            How can Meradian solve your marketing challenges?
+            How can Ecovis RKCA solve your business challenges?
           </h2>
           <div className="flex shrink-0 items-center gap-3">
             <a
