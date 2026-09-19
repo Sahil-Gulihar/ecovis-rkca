@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import AceAi from "./components/AceAi";
 import InfluencerSignup from "./components/InfluencerSignup";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/ace-ai" element={<AceAi />} />
         <Route path="/signup" element={<InfluencerSignup />} />
       </Routes>
     </div>
