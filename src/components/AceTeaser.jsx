@@ -66,7 +66,6 @@ export default function AceTeaser() {
         </div>
       </section>
 
-      <DarkSeam to="light" />
     </div>
   );
 }

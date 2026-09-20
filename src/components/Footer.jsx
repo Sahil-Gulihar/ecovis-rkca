@@ -13,19 +13,19 @@ const COLUMNS = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#090909]">
-      <div className="relative overflow-hidden bg-white py-20">
-        <div className="pointer-events-none absolute inset-0 -z-10 hidden lg:block">
+    <footer className="bg-[#07060a]">
+      <div className="relative overflow-hidden border-b border-white/5 py-20">
+        <div className="pointer-events-none absolute inset-0 -z-10 hidden opacity-70 lg:block">
           <img src={float1} alt="" className="absolute right-[8%] top-[28%] w-[160px] object-contain" />
           <img src={float2} alt="" className="absolute left-[19%] top-[30%] w-[100px] object-contain" />
           <img src={float3} alt="" className="absolute left-[14%] top-[10%] w-[70px] object-contain" />
           <img src={float4} alt="" className="absolute right-[16%] top-[5%] w-[110px] object-contain" />
         </div>
         <div className="relative mx-auto max-w-[615px] px-6 text-center">
-          <h2 className="text-[28px] font-bold leading-[1.2] text-[#090909] sm:text-[36px]">
+          <h2 className="text-[28px] font-bold leading-[1.2] text-white sm:text-[36px]">
             We Help Build Investable &amp; Well Governed Businesses
           </h2>
-          <p className="mx-auto mt-4 max-w-[560px] text-[16px] leading-[1.6] text-[#545454]">
+          <p className="mx-auto mt-4 max-w-[560px] text-[16px] leading-[1.6] text-[#a6a6a6]">
             Ecovis RKCA is a growth partner, not just an advisor, bringing together Technology, Strategy,
             Governance and Capital to help businesses scale with confidence.
           </p>

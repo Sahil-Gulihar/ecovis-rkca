@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import { CAR_MASK } from "./aceTheme";
-import { DarkSeam, Starfield } from "./aceVisuals";
+import { Starfield } from "./aceVisuals";
 import carExploded from "../assets/images/ace-car.webp";
 import shotEngine from "../assets/images/ace-engine.webp";
 import shotWing from "../assets/images/ace-wing.webp";
@@ -449,7 +449,6 @@ export default function AceAi() {
         </div>
       </section>
 
-      <DarkSeam to="light" />
       <Footer />
     </div>
   );
