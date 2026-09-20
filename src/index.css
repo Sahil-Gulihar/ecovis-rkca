@@ -3,3 +3,8 @@
 body {
   margin: 0;
 }
+
+.font-display {
+  font-family: "Instrument Serif", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+}
