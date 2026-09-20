@@ -37,3 +37,20 @@ export const SEAM_RAMP = [
   ["#1c080e", 86],
   [INK, 100],
 ];
+
+/**
+ * The same crimson horizon, but between two dark surfaces: it blooms up to a
+ * lit edge and falls back to ink instead of resolving to white.
+ */
+export const GLOW_RAMP = [
+  [INK, 0],
+  ["#160710", 22],
+  ["#3d0f1a", 40],
+  ["#7c2730", 52],
+  ["#cf6d76", 59],
+  ["#f0ccd0", 62],
+  ["#a13d47", 68],
+  ["#4a121b", 78],
+  ["#160710", 90],
+  [INK, 100],
+];

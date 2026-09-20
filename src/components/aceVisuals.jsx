@@ -1,4 +1,4 @@
-import { SEAM_RAMP, STARFIELD } from "./aceTheme";
+import { GLOW_RAMP, SEAM_RAMP, STARFIELD } from "./aceTheme";
 
 export function Starfield({ className = "" }) {
   return (
@@ -6,10 +6,15 @@ export function Starfield({ className = "" }) {
   );
 }
 
-/** Softens the seam where a dark ACE surface meets the white brand pages. */
+/**
+ * The crimson horizon between surfaces. `dark` ramps down from the white brand
+ * pages, `light` ramps back up to them, and `glow` sits between two dark
+ * surfaces as a lit edge.
+ */
 export function DarkSeam({ to = "dark" }) {
-  const stops = SEAM_RAMP.map(([color, at]) => `${color} ${to === "dark" ? at : 100 - at}%`);
-  if (to !== "dark") stops.reverse();
+  const ramp = to === "glow" ? GLOW_RAMP : SEAM_RAMP;
+  const stops = ramp.map(([color, at]) => `${color} ${to === "light" ? 100 - at : at}%`);
+  if (to === "light") stops.reverse();
   return (
     <div
       className="h-36 w-full"
