@@ -6,23 +6,23 @@ import iconManagement from "../assets/images/icon-management.png";
 const CARDS = [
   {
     icon: iconRealGrowth,
-    title: "50+ Years of Experience",
-    body: "More than five decades of presence in India, serving over 1,500 clients across industries.",
+    title: "Technology",
+    body: "Transform and foster your business with our tech experts and data analytics team.",
   },
   {
     icon: iconGuidelines,
-    title: "Governance You Can Trust",
-    body: "We help you build businesses that are well governed, compliant and ready for investors.",
+    title: "Strategy",
+    body: "Strategic thinking and planning, go-to-market, customer insight and performance-enabling goals and KPIs.",
   },
   {
     icon: iconTargeting,
-    title: "A 90+ Country Global Network",
-    body: "Part of a global network across more than 90 countries, bringing international expertise to your business.",
+    title: "Governance",
+    body: "Legal advice, policies and risk work that keep your business compliant and ready for scrutiny.",
   },
   {
     icon: iconManagement,
-    title: "Growth Partners, Not Just Advisors",
-    body: "Technology, Strategy, Governance and Capital under one roof, so you get end-to-end support.",
+    title: "Capital",
+    body: "Financial and capital services that fuel ventures and make your business financially sound.",
   },
 ];
 
@@ -30,9 +30,10 @@ export default function WhyChoose() {
   return (
     <section className="bg-[#f7f7f7] py-24">
       <div className="mx-auto max-w-[1148px] px-6 text-center">
-        <h2 className="text-[28px] font-bold text-[#090909] sm:text-[36px]">Why Choose Ecovis RKCA?</h2>
+        <h2 className="text-[28px] font-bold text-[#090909] sm:text-[36px]">Our Growth Ecosystem</h2>
         <p className="mx-auto mt-4 max-w-[600px] text-[16px] leading-[1.6] text-[#545454]">
-          Discover the advantages that set us apart and make your business journey stronger, safer and more investable.
+          At our core, we see ourselves as growth partners, not just advisors. Scaling a business in
+          today&rsquo;s dynamic landscape demands a solid foundation built on four key pillars.
         </p>
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2">

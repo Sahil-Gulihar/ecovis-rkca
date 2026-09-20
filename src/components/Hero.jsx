@@ -21,21 +21,21 @@ const LOGOS = [
 const STATS = [
   {
     icon: iconFollowers,
-    value: "1,500+",
-    title: "Clients Served",
-    body: "Businesses across industries trust us for advisory, compliance and growth",
+    value: "Governance",
+    title: "Risk & Compliance",
+    body: "Legal advice and policies that prepare organisations for any unexpected challenges",
   },
   {
     icon: floating2,
-    value: "50+",
-    title: "Years of Experience",
-    body: "More than five decades of presence in India",
+    value: "Capital",
+    title: "Finance & Capital",
+    body: "Services to make your business financially sound, from reporting support to funding",
   },
   {
     icon: iconClients,
-    value: "90+",
-    title: "Country Global Network",
-    body: "Global reach backed by deep local expertise",
+    value: "Strategy",
+    title: "Strategy & Performance",
+    body: "Goal-oriented consulting focused on the gaps between business and performance outcomes",
   },
 ];
 
@@ -59,14 +59,14 @@ export default function Hero() {
             Well governed.
           </h1>
           <p className="mx-auto mt-5 max-w-[560px] text-[17px] leading-[1.55] text-[#545454]">
-            Ecovis RKCA is a business advisory firm helping companies across governance,
-            finance, strategy and digital transformation.
+            An organisation excelled by its Competency Centers, with a purpose to mentor
+            entities of today to be MNCs for tomorrow.
           </p>
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-x-8 gap-y-3">
             <div className="flex items-center gap-2 text-[14px] font-medium text-[#a6a6a6]">
               <img src={checkGreen} alt="" className="size-5" />
-              Trusted Advisors
+              Growth Partners, Not Just Advisors
             </div>
             <div className="flex items-center gap-2 text-[14px] font-medium text-[#a6a6a6]">
               <img src={checkBlue} alt="" className="size-5" />
@@ -88,7 +88,7 @@ export default function Hero() {
         {/* Trusted-by logo strip */}
         <div className="mt-8 flex flex-col items-center gap-6">
           <p className="text-[15px] font-medium text-[#545454]">
-            Trusted by <span className="font-bold">1,500+</span> clients across industries
+            Our trusted partners in growth
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6 opacity-80 grayscale">
             {LOGOS.map((logo) => (
@@ -120,7 +120,7 @@ export default function Hero() {
             {STATS.map((stat) => (
               <div key={stat.title} className="flex flex-col items-center text-center">
                 <img src={stat.icon} alt="" className="h-[64px] w-[64px] object-contain" />
-                <p className="mt-4 text-[34px] font-bold text-[#090909]">
+                <p className="mt-4 text-[26px] font-bold text-[#090909]">
                   {stat.value}
                   {stat.suffix && <span className="text-[20px]"> {stat.suffix}</span>}
                 </p>
