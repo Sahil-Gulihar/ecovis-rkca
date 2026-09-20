@@ -6,6 +6,7 @@ import SolutionsSection from "./SolutionsSection";
 import WhyChoose from "./WhyChoose";
 import ToolsIntro from "./ToolsIntro";
 import AudienceTabs from "./AudienceTabs";
+import AceTeaser from "./AceTeaser";
 import Footer from "./Footer";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <WhyChoose />
       <ToolsIntro />
       <AudienceTabs />
+      <AceTeaser />
       <Footer />
     </>
   );

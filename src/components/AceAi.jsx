@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "./Logo";
+import Header from "./Header";
 import Footer from "./Footer";
+import { CAR_MASK } from "./aceTheme";
+import { DarkSeam, Starfield } from "./aceVisuals";
 import carExploded from "../assets/images/ace-car.webp";
 import shotEngine from "../assets/images/ace-engine.webp";
 import shotWing from "../assets/images/ace-wing.webp";
@@ -93,60 +95,11 @@ const SPECS = [
   { value: "0.0", label: "Margin for error" },
 ];
 
-/** Dissolves the render's red studio backdrop into the page's black. */
-const CAR_MASK =
-  "radial-gradient(ellipse 54% 56% at 50% 50%, #000 34%, rgba(0,0,0,0.55) 64%, transparent 92%)";
-
 const clamp = (v) => Math.min(1, Math.max(0, v));
 const smooth = (t) => t * t * (3 - 2 * t);
 
 /** Eased 0 -> 1 as scroll progress `p` crosses [from, to]; holds at 1 after. */
 const phase = (p, [from, to]) => smooth(clamp((p - from) / (to - from)));
-
-const STARFIELD = {
-  backgroundImage: [
-    "radial-gradient(1.4px 1.4px at 12% 18%, rgba(255,255,255,0.55) 50%, transparent 51%)",
-    "radial-gradient(1.2px 1.2px at 78% 12%, rgba(255,255,255,0.4) 50%, transparent 51%)",
-    "radial-gradient(1px 1px at 34% 72%, rgba(255,255,255,0.35) 50%, transparent 51%)",
-    "radial-gradient(1.6px 1.6px at 62% 44%, rgba(255,214,214,0.4) 50%, transparent 51%)",
-    "radial-gradient(1px 1px at 88% 66%, rgba(255,255,255,0.3) 50%, transparent 51%)",
-    "radial-gradient(1.1px 1.1px at 6% 52%, rgba(255,255,255,0.3) 50%, transparent 51%)",
-    "radial-gradient(1px 1px at 50% 8%, rgba(255,255,255,0.28) 50%, transparent 51%)",
-    "radial-gradient(1.3px 1.3px at 22% 90%, rgba(255,255,255,0.3) 50%, transparent 51%)",
-  ].join(","),
-  backgroundSize: "420px 420px, 560px 560px, 340px 340px, 700px 700px, 480px 480px, 620px 620px, 380px 380px, 520px 520px",
-};
-
-function Starfield({ className = "" }) {
-  return (
-    <div className={`pointer-events-none absolute inset-0 ${className}`} style={STARFIELD} aria-hidden />
-  );
-}
-
-function AceHeader() {
-  return (
-    <header className="absolute inset-x-0 top-0 z-50">
-      <div className="mx-auto flex h-[67px] max-w-[1330px] items-center justify-between px-6">
-        <Link to="/" className="shrink-0">
-          <Logo light />
-        </Link>
-        <nav className="hidden items-center gap-7 lg:flex">
-          {["Services", "Industries", "About Us", "Contact"].map((label) => (
-            <Link key={label} to="/" className="text-[15px] font-medium text-white/70 transition hover:text-white">
-              {label}
-            </Link>
-          ))}
-          <a
-            href="mailto:info@ecovisrkca.com"
-            className="rounded-full border border-white/20 px-5 py-2 text-[14px] font-medium text-white transition hover:border-white/50 hover:bg-white/5"
-          >
-            Talk to us
-          </a>
-        </nav>
-      </div>
-    </header>
-  );
-}
 
 function useScrollProgress(ref) {
   const reduced =
@@ -384,7 +337,7 @@ function DetailSection({ section, index }) {
 export default function AceAi() {
   return (
     <div className="bg-[#07060a]">
-      <AceHeader />
+      <Header dark />
 
       {/* Hero */}
       <section className="relative overflow-hidden pb-14 pt-[140px] lg:pb-20 lg:pt-[180px]">
@@ -496,6 +449,7 @@ export default function AceAi() {
         </div>
       </section>
 
+      <DarkSeam to="light" />
       <Footer />
     </div>
   );
